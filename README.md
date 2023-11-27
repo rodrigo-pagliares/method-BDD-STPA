@@ -28,7 +28,7 @@ voltar depois
 
 #### Directory
 You need to open your IDE (IntelliJ in the example used above) and import `confidentiality-integrity` as a Maven project. Then, in `confidentiality-integrity\src\main\resources\application.properties`, you need to define the information about your Postgres administrator user by changing the following properties: <br>
-spring.datasource.url= `jdbc:postgresql://localhost:5432/database` <br>
+spring.datasource.url= `jdbc:postgresql://localhost:0000/database` <br>
 spring.datasource.username= `username`<br>
 spring.datasource.password= `password`
 
