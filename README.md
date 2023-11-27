@@ -23,8 +23,8 @@ To run the application and tests, you need to follow the steps below:
 #### Set Environment Variable
 Need to have in Windowns enviroment Variables the folder path of intelliJ.
 
-#### Install lombok in IntelliJ
-voltar depois
+#### Install Lombok plugin in IntelliJ
+To run the application, it is necessary to have Lombok installed in the IDE. To do this, go to Settings > Plugins (in IntelliJ), search for the Lombok Plugin, and then click on 'Install Plugin'.
 
 #### Directory
 You need to open your IDE (IntelliJ in the example used above) and import `confidentiality-integrity` as a Maven project. Then, in `confidentiality-integrity\src\main\resources\application.properties`, you need to define the information about your Postgres administrator user by changing the following properties: <br>
@@ -56,8 +56,8 @@ To run the application and tests, you need to follow the steps below:
 #### Set Environment Variable
 Need to have in Windowns enviroment Variables the folder path of intelliJ.
 
-#### Plugins
-For the tests to work, it is necessary to install the Scala plugin in your IDE. To do this, go to Settings > Plugins (IntelliJ) and search for the Scala plugin.
+#### Install Scala plugin in IntelliJ
+For the tests to work, it is necessary to install the Scala plugin in your IDE. To do this, go to Settings > Plugins (IntelliJ),search for Scala plugin and then click on 'Install Plugin'.
 
 #### Directory
 You need to open your IDE (IntelliJ in the example used above) and import `availability` as a Maven project.
