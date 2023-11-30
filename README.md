@@ -92,3 +92,5 @@ To run the availability test, first ensure that the application is running. Then
 
 ### Availability test result:
 ![availability-test](https://drive.google.com/uc?export=view&id=1C2vUV7P73Gob1XdPvR1XnZjpsVi1tlPw)
+
+### Video about how confidentiality, integrity and availability tests work: https://youtu.be/FhTs0NbvzrI
