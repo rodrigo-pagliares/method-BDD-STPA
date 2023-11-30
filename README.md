@@ -37,6 +37,7 @@ Finally, execute the main class `ConfidentialityIntegrity.class` as a Java Appli
 ### Tests Execution Steps
 In the directory `confidentiality-integrity/src/test/resources/features/`, you will find the features that are used for conducting tests. The features describe the expected behavior of the software in natural language. As an example:
 
+![feature](https://drive.google.com/uc?export=view&id=1mYrs21RgV0bcRI0sgBo-vSzeCLGUyx24)
 
 And in the directory `confidentiality-integrity\src\test\java\com\rubatino\tcc`, you will find the implementation of the features. To run the tests, simply right-click on the `RunCucumberTest.class` class and click on " Run 'RunCucumberTest' ".
 
@@ -65,3 +66,29 @@ You need to open your IDE (IntelliJ in the example used above) and import `avail
 ### Tests Execution Steps
 To run the availability test, first ensure that the application is running. Then, execute the command:
 `mvn clean test-compile gatling:test`
+
+## Same images
+
+### Login page:
+![login-page](https://drive.google.com/uc?export=view&id=1YpAXOLY3BzHM-PH3jH5Ag5IIwQaktH6M)
+
+### Home page:
+![home-page](https://drive.google.com/uc?export=view&id=1NevmDqozv6hrlHk-WeVbnnaEEBlQ_FS6)
+
+### User page:
+![user-page](https://drive.google.com/uc?export=view&id=1nN5vaDOTEkAJD-VIZ9r1t0Z_Y3tX3NLF)
+
+### Admin page:
+![admin-page](https://drive.google.com/uc?export=view&id=1NWQoFpPZds2yzX8Z7kLIWZJxdWUoKSiR)
+
+### Insufficient privileges Error: 
+![error-page](https://drive.google.com/uc?export=view&id=1sGQ3eRTJnF6jC_n3L6FsSrN6OdCcAgA5)
+
+### Confidentiality and Integrity test passed: 
+![given-test](https://drive.google.com/uc?export=view&id=1hVszD-D9e8PJMhRi5nhpuYkvECgNJVNH) <br>
+![when-test](https://drive.google.com/uc?export=view&id=10Fn5Vw1scgSktNDMbJyf_L3dlxqp1p6_) <br>
+![then-test](https://drive.google.com/uc?export=view&id=10mJEyb0WH--45aMeBnxIVd7K0KGi6pFK) <br>
+![passed-test](https://drive.google.com/uc?export=view&id=1rieknqRd4h1VqbTKRiQoYEUnvxetLHnL)
+
+### Availability test result:
+![availability-test](https://drive.google.com/uc?export=view&id=1C2vUV7P73Gob1XdPvR1XnZjpsVi1tlPw)

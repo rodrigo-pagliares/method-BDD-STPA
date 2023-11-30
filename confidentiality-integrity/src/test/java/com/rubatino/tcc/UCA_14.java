@@ -39,13 +39,13 @@ public class UCA_14 {
         WebElement login = driver.findElement(By.id("login-button"));
         login.click();
     }
-    @When("Authenticator not provided fetch role")
+    @When("Authenticator not provided request role")
     public void autenticadorNotProvidedSolicitarRole() {
         driver.get("http://localhost:8080");
         WebElement mock = mock(WebElement.class);
         verifyNoInteractions(mock);
     }
-    @Then("Authenticator must provided fetch role when username is valid and password is valid")
+    @Then("Authenticator must provided request role when username is valid and password is valid")
     public void providedRequestRole(){
         WebElement mock = mock(WebElement.class);
         driver.get("http://localhost:8080");
